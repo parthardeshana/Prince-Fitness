@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Prince Fitness</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../css/prince.css">
+    <link rel="stylesheet" href="../css/signup_page.css">
+    <script src="../javascript/prince.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="row navbar-others">
+        <div class="col-md-2 left">
+            <a href="../index.html">
+                <div class="logo" id="main-logo">
+                    <img class="logo-image" src="../logo.png" alt="">
+                    <p class="prince">PRINCE</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-8 mid">
+            <ul class="navbar">
+                <li><a href="../index.html"> HOME</a></li>
+                <li><a href="../html/about_us.html"> ABOUT US</a></li>
+                <li><a href="#"> FITNESS</a></li>
+                <li><a href="#"> SERVICE </a></li>
+                <li><a href="../html/galary.html"> GALLARY</a></li>
+                <li><a href="../html/contact_us.html"> CONTACT </a></li>
+            </ul>
+        </div>
+        <div class="col-md-2 right row">
+            <div class="col-sm-6 btn-signup">
+                <a href="../html/sign_up.html"> <button class="my-btn">SIGN UP</button> </a>
+            </div>
+            <div class="col-sm-6 btn-signup">
+                <a href="../html/login.html"> <button class="my-btn">LOG IN</button> </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sign Up Page -->
+    <div class="sign-up-main">
+        <div class="my-sign-up">
+            <h1>Welcome to Prince Fitness</h1>
+            <hr>
+            <form action="backend.py" class="log-form">
+                <div class="form-group">
+                    <label>Name : </label>
+                    <input type="text" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-group form-Email">
+                    <label> Email : </label>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <label> Contact : </label>
+                    <input type="text" name="Contact" placeholder="Contact Number" required>
+                </div>
+                <div class="form-group">
+                    <label> City : </label>
+                    <input type="text" name="city" placeholder="City" required>
+                </div>
+                <div class="form-group">
+                    <label> Password : </label>
+                    <input type="password" name="Password" placeholder="Password" required>
+                </div>
+                <div class="form-group">
+                    <label> Password : </label>
+                    <input type="password" name="Password2" placeholder="Re-enter Password" required>
+                </div>
+                <div>
+                    <button id="submit-btn" onclick="alert('Thanks you for connecting with us')" id="sign-up"
+                        class="my-btn">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- FOOTER-PAGE -->
+    <div class="full-footer">
+        <div class="footer">
+            <div class="row ">
+                <div class="col-md-4 footerA">
+                    <div class="logo" id="footer-logo">
+                        <a href="../index.html">
+                            <img class="logo-image" src="../logo.png" alt="">
+                            <p class="prince" id="footer-prince">PRINCE</p>
+                        </a>
+                    </div>
+                    <div>
+                        <p class="footerA-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                            eveniet ut neque repudiandae laborum. Nam inventore numquam minus praesentium, laborum et
+                            velit voluptatibus. Reprehenderit unde eaque saepe animi amet perferendis laborum repellat a
+                            laudantium ullam tenetur nam error, veritatis aspernatur sunt! Nam vel ex tempore!</p>
+                    </div>
+                </div>
+                <div class="col-md-3 footerB">
+                    <h3>OUR BLOG </h3>
+                    <ul>
+                        <li>
+                            <h4>Most People Who Work</h4>
+                            <p>&#x1F550; July 27, 2020</p>
+                        </li>
+                        <li>
+                            <h4> Freelance Design Tricks</h4>
+                            <p>&#x1F550; March 15, 2020</p>
+                        </li>
+                        <li>
+                            <h4>Health is Wealth</h4>
+                            <p>&#x1F550; DEC 02, 2019</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 footerC">
+                    <h3>PROGRAM </h3>
+                    <ul>
+                        <li><a href="#">
+                                <h4>Bodybuilding</h4>
+                            </a></li>
+                        <li><a href="#">
+                                <h4>Runing</h4>
+                            </a></li>
+                        <li><a href="#">
+                                <h4>Weight Losss</h4>
+                            </a></li>
+                        <li><a href="#">
+                                <h4>Boxing</h4>
+                            </a></li>
+                        <li><a href="#">
+                                <h4>GYM Fitness</h4>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footerD">
+                    <h3>GET INFO</h3>
+                    <ul>
+                        <li>
+                            <h4>&#x260E; Phone</h4>
+                            <p>+91 0123456789</p>
+                        </li>
+                        <li>
+                            <h4>&#128231; Email</h4>
+                            <p>getinfo@princefitness.com</p>
+                        </li>
+                        <li>
+                            <h4> &#xe55f; Address</h4>
+                            <p>BTM Layout, Banglore, India</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Social-media">
+                <h3 class="follow-us">FOLLOW US</h3>
+                <ul>
+                    <li><a href="#"> <img class="Social-img" src="../icons/insta.png" alt=""> </a></li>
+                    <li><a href="#"> <img class="Social-img" src="../icons/youtube.png" alt=""> </a></li>
+                    <li><a href="#"> <img class="Social-img" src="../icons/linkedin.png" alt=""> </a></li>
+                    <li><a href="#"> <img class="Social-img" src="../icons/fb.png" alt=""> </a></li>
+                    <li><a href="#"> <img class="Social-img" src="../icons/insta.png" alt=""> </a></li>
+                </ul>
+            </div>
+        </div>
+        <h3 class="footer-rights">All Copyrights @2020 Resereved With &#128420; <span>Prince Fitness</span> </h3>
+    </div>
+</body>
+
+</html>

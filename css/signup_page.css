@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+} 
+.sign-up-main {
+    background-image: url(../images/7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.my-sign-up {
+    border: 2px solid orangered;
+    margin: 100px 170px;
+    padding: 30px 200px;
+    display: inline-block;
+    width: 80%;
+    border-radius: 28px;
+}
+.my-sign-up h1 {
+    text-align: center; 
+    font-size: 40px;
+    color: orangered;
+}
+hr {
+    margin-bottom: 50px;
+}
+.log-form {
+    margin-right: 250px;
+}
+.form-group {
+    text-align: right;
+    margin: 10px;
+}
+.form-group input {
+    font-size: 18px;
+    display: inline-block;
+    margin: 10px;
+    padding: 13px 5px;
+    width: 250px;
+    height: 20px;
+    color: black;
+}
+.form-group label {
+    font-size: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+#submit-btn {
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    background-color: orangered;
+    margin: 20px 401px;
+}
+#submit-btn:hover {
+    color: black;
+}
